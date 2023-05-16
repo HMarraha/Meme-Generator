@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: linear-gradient(#672280,#A626D3);
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 550px;
+    margin: 10vh auto;
+    border: 1px solid rgba(0, 0,0,0.1);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0,0,0.1);
+}
+.header-img {
+    width: 50px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    padding: 19px auto;
+}
+.logo-text {
+    color: white;
+    font-size: 20.75px;
+    font-weight: 700;
+    font-family: 'Karla',sans-serif;
+}
+.header-text {
+    margin-right: 37px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 36px;
+    
+}
+.form-input-1,.form-input-2 {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    width: 230px;
+    height: 35px;
+    text-indent: 5px;
+}
+.form-btn {
+    text-align: center;
+    margin: 15px 36px;
+    background-image: linear-gradient(#711F8D,#A818DA);
+    border-radius: 5px;
+    width: 477px;    
+    height: 40px;
+    color: white;
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.form-input-1 {
+    margin-left: 16px;
+}
+.form-input-2 {
+    margin-right: 14px;
+}
+.meme-img {
+    width: 477px;
+    height: 600px;
+    margin-left: 36px ;
+    border-radius: 5px;
+}
+.upper-text {
+   position: absolute;
+   top: 5%; 
+   left: 26%;
+   color: white;
+   font-family: "Impact";
+   font-style: normal;
+   font-size: 30px;
+   font-weight: 700;
+   text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+   1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+   text-align: center;
+   width: 45%;
+   height: 1%;
+   text-transform: uppercase;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 15%;
+    left: 26%;
+    width: 45%;
+    height: 1%;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    text-transform: uppercase;
+}
+.meme-section {
+    position: relative;
+}
+
